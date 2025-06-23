@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jinling Li's Website</title>
+  <style>
+    body {
+      background-color: #fff8f0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ffb6b9;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+      color: #fff;
+    }
+
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-top: 20px;
+      object-fit: cover;
+      border: 5px solid #fff;
+      transition: transform 0.4s ease;
+    }
+    .profile-photo:hover {
+      transform: scale(1.1) rotate(2deg);
+    }
+
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #ff6f91;
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .project-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .project-list li {
+      background-color: #ffe0e9;
+      margin-bottom: 10px;
+      padding: 10px 15px;
+      border-radius: 10px;
+    }
+
+    .social-links a {
+      margin: 0 10px;
+      color: #ff6f91;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+      font-family: inherit; 
+      resize: vertical;
+    }
+
+    .contact-form button {
+      background-color: #ff6f91;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .contact-form button:hover {
+      background-color: #ff4f72;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #999;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm Jinling Li</h1>
+    <img src="your-photo.jpg" alt="Jinling's Photo" class="profile-photo">
+  </header>
+
+  <section>
+    <h2>🌟 About Me</h2>
+    <p>I’m a curious and creative human who’s passionate about technology, design, and self-growth. This is my very first website — and I built it from scratch!</p>
+  </section>
+
+  <section>
+    <h2>💼 Projects</h2>
+    <ul class="project-list">
+      <li>🌱 Personal Website (this one!)</li>
+      <li>📊 Data Visualization with Python (coming soon)</li>
+      <li>🧠 Machine Learning Practice Notebook (coming soon)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🌍 Connect with Me</h2>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/jinling-li-9bab91326/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Tut314" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>💬 Contact Me</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Jinling Li. All rights reserved.
+  </footer>
+
+</body>
+</html>
